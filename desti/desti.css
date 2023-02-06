@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-image: url("desti.jpg"); */
+  background-color: #16213E;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #8a8989;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.home {
+  margin-left: 5em;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+main {
+  padding: 20px;
+}
+
+p {
+  margin-left: 3%;
+} 
+
+.destination {
+  background-color: #352a4791;
+  border-radius: 2%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.destination h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.destination h3 {
+  margin: 0;
+  color: #fff;
+  margin-left: 1.5%;
+
+}
+
+button {
+  background-color: #4CAF50;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+

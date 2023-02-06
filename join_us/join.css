@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #332940;
+    margin: 0;
+    padding: 0;
+}
+ 
+  header {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  }
+
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  }
+
+  nav li {
+  margin: 0 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #c0c0c0;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+   
+  .join {
+    color: #fff;
+    text-align: center;
+    font-size:200% ;
+  }
+  section {
+    padding: 20px;
+    
+  }
+  
+  form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #13005A;
+    align-items: center;
+  }
+  
+    label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+    label {
+    font-weight: bold;
+  }
+  
+    input[type="text"], input[type="email"], input[type="password"] {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+    textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+
+    input[type="submit"] {
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+    input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="button"] {
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
+    input::-webkit-input-placeholder { 
+    transition: opacity 0.5s ease; 
+    opacity: 1; 
+  } 
+    input:focus::-webkit-input-placeholder { 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+  }
+
